@@ -1,0 +1,13 @@
+{
+  "name": "drawing-pad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx live-server start",
+    "finished": "npx live-server finished"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

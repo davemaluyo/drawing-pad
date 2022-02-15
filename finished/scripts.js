@@ -75,12 +75,11 @@ function draw(ts) {
 
     // If you are in drawing mode add to the canvas with the current state values
     if (isDraw) {
-        // Add all arcs to the state
-        arcs.push({ x: mouse.x, y: mouse.y, color: currentColor, strokeWidth: currentStrokeWidth })
-
         if (isEraser) {
             ctx.clearRect(mouse.x, mouse.y, currentStrokeWidth, currentStrokeWidth)
         } else {
+            // Add all arcs to the state
+            arcs.push({ x: mouse.x, y: mouse.y, color: currentColor, strokeWidth: currentStrokeWidth })
             // Re-render each arc per frame
             arcs.map(item => {
                 ctx.beginPath()

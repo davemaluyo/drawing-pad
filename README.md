@@ -17,5 +17,5 @@ npm run finished
 ```
 
 ## Resources
-[Request Animation Frame](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
-[CanvasRederingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)
+- [Request Animation Frame](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
+- [CanvasRederingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)
